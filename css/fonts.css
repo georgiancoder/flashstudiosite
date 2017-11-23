@@ -1,0 +1,32 @@
+﻿@font-face {
+	font-family: PRIMETIME;
+	src: url("../fonts/PRIMETIME.ttf");
+}
+
+@font-face {
+	font-family: nevis;
+	src: url("../fonts/nevis.ttf");
+}
+
+@font-face {
+	font-family: DinBold;
+	//src: url("../fonts/DINBold.ttf");
+	src: url("../fonts/nevis.ttf");
+}
+
+
+@font-face {
+  font-family: 'dinlight';
+  src: url('../fonts/DIN Light Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dinmedium';
+  src: url('../fonts/DINMedium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

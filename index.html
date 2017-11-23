@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>flash.ge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	var myCenter=new google.maps.LatLng(41.71162,44.79929);
+
+	function initialize()
+	{
+		var mapProp = {
+ 		center:myCenter,
+  		zoom:15,
+  		disableDefaultUI:true,
+ 		 mapTypeId:google.maps.MapTypeId.ROADMAP
+  	};
+
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+	var marker=new google.maps.Marker({
+ 		position:myCenter,
+  		icon:'images/marker.png'
+  	});
+
+	marker.setMap(map);
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+	<div class="cont" id="cont">
+	<!-- <a href="#" class="lang"></a> -->
+	<div class="scrollers scrollDown" id="scrollDown">
+			<div><i class="fa fa-angle-down"></i></div>
+	</div>
+	<div class="scrollers scrollUp" id="scrollUp">
+			<div><i class="fa fa-angle-up"></i></div>
+	</div>
+		<aside>
+			<div class="topsec">
+				<a href="#"><img src="images/logo.png" alt="logo" id="logo"></a>
+				<span class="siteTitle">FLASH STUDIO</span>
+			</div>
+			<div class="botsec">
+				<span class="follow">FOLLOW US ON</span>
+				<div class="soc">
+					<a href="#" id="facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" id="vimeo"><i class="fa fa-vimeo"></i></a>
+					<a href="#" id="linkedin"><i class="fa fa-linkedin"></i></a>
+				</div>
+			</div>
+		</aside>
+		<main>
+				<div class="rightsec"></div>
+				<div class="left_section activePost">
+					<div class="post">
+					<span class="postNumeration">1</span>
+					<h1 class="ptitle">TBILISI FREE ZONE</h1>
+					<p style="color: #43bee6;"><span>W</span>ebsite and mobile app design and development<br/> for insurance company aversi alpha and its<br/> beneficiarys</p>
+					<div class="more"><a href="#" style="color: #43bee6;" class="view"><img src="images/link.svg"> VIEW PROJECT</a></div>
+					</div>
+				</div>
+
+				<div class="slider activeSlider">
+					<img src="images/sliderimg.png" alt="slider" class="sliderImg activeImg">
+					<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+					<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+					<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+					<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+					<div class="slidernav">
+						<div class="sliderBtns activebtn"><div></div></div>
+						<div class="sliderBtns inactivebtn"><div></div></div>
+						<div class="sliderBtns inactivebtn"><div></div></div>
+						<div class="sliderBtns inactivebtn"><div></div></div>
+						<div class="sliderBtns inactivebtn"><div></div></div>
+					</div>
+				</div>
+
+				<div class="left_section">
+					<div class="post">
+					<span class="postNumeration">2</span>
+					<h1 class="ptitle">TBILISI FREE ZONE A</h1>
+					<p style="color: #43bee6;"><span>W</span>ebsite and mobile app design and development<br/> for insurance company aversi alpha and its<br/> beneficiarys</p>
+					<div class="more"><a href="#" style="color: #43bee6;" class="view"><img src="images/link.svg"> VIEW PROJECT</a></div>
+					</div>
+				</div>
+
+				<div class="slider">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg activeImg">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+						<div class="slidernav">
+							<div class="sliderBtns activebtn"><div></div></div>
+							<div class="sliderBtns inactivebtn"><div></div></div>
+							<div class="sliderBtns inactivebtn"><div></div></div>
+							<div class="sliderBtns inactivebtn"><div></div></div>
+						</div>
+				</div>
+
+				<div class="left_section">
+					<div class="post">
+					<span class="postNumeration">3</span>
+					<h1 class="ptitle">TBILISI FREE ZONE B</h1>
+					<p style="color: #43bee6;"><span>W</span>ebsite and mobile app design and development<br/> for insurance company aversi alpha and its<br/> beneficiarys</p>
+					<div class="more"><a href="#" style="color: #dedede;" class="archived"><img src="images/archived.svg"> WEBSITE IS ARCHIVED</a></div>
+					</div>
+				</div>
+
+				<div class="slider">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg activeImg">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg">
+						<div class="slidernav">
+							<div class="sliderBtns activebtn"><div></div></div>
+							<div class="sliderBtns inactivebtn"><div></div></div>
+							<div class="sliderBtns inactivebtn"><div></div></div>
+						</div>
+				</div>
+
+				<div class="left_section">
+					<div class="post">
+					<span class="postNumeration">4</span>
+					<h1 class="ptitle">TBILISI FREE ZONE C</h1>
+					<p style="color: #43bee6;"><span>W</span>ebsite and mobile app design and development<br/> for insurance company aversi alpha and its<br/> beneficiarys</p>
+					<div class="more"><a href="#" style="color: #dedede;" class="archived"><img src="images/archived.svg"> WEBSITE IS ARCHIVED</a></div>	
+					</div>
+				</div>
+
+				<div class="slider">
+						<img src="images/sliderimg.png" alt="slider" class="sliderImg activeImg">
+				</div>
+				<div id="openbtn">
+	 				<svg viewBox="0 0 800 600">
+	    			<path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
+	    			<path d="M300,320 L540,320" id="middle"></path>
+	    			<path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+	  				</svg>
+				</div>
+		</main>
+		<!-- Homepage open -->
+
+		<section class="homepage">
+		<canvas id="mycanvas"></canvas>
+				<section class="secLeft">
+					<article>
+						<h1>WHY FLASH STUDIO ?</h1>
+						<p>We are already <span class="b">8 years</span> in this business and gained huge experience as we continiue to grow, we have accomplished more than <span class="b">100 web projects</span> for different companies and from <span class="b">12 countries</span> around the world. </p>
+					</article>
+					<article>
+						<h1>WHAT WE DO ?</h1>
+						<p>We connect <span class="b">art with technology</span>, beauty with brains and we make responsive website, mobile apps, E-commerce websites, Facebook Apps, SEO and game development. We combine great usability and design with Strong Development.</p>
+					</article>
+					<article>
+						<h1>PRICE AND TIME</h1>
+						<p>It is very hard to define how much a website will cost because every website needs its own approach and each website has its difficulties. As we dont sell ready product and create each website from scratch to final product price is counted based on your needs and time spent on website.</p>
+					</article>
+					<article>
+						<h1>OUR TEAM</h1>
+						<p>We strongly Belive that great product can be made only by a great Team, therefore here at flash design studio we assembled a team of great Designers, Developers, Markupers and Project Managers who devote their knowledge and professional enthusiasm to create best products in Georgia.</p>
+					</article>
+				</section>
+				<section class="secRight">
+					<article>
+						<h1>GET IN TOUCH</h1>
+						<p>Flash Studio LLC<br>
+						Tsinamdzgvirishvili St. #79<br>
+						Tbilisi, Georgia<br>
+						Phone: ( +995 32 ) 42 18 07<br>
+						E-Mail: info@flash.ge</p>
+					</article>
+					<article>
+						<h1>FIND US ON MAP</h1>
+						<p id="googleMap"></p>
+					</article>
+				</section>
+		</section>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="js/wobbly.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+</body>
+</html>
